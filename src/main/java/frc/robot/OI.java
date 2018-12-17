@@ -41,4 +41,8 @@ public class OI {
   public double getDriveLeftTrigger() {
     return driveController.getTriggerAxis(Hand.kLeft);
   }
+
+  public double getDriveLeftXAxis() {
+    return driveController.getX(Hand.kLeft);
+  }
 }
